@@ -1,0 +1,103 @@
+body{
+    background-color: whitesmoke;
+}
+.list-item .item{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+.sec1{
+    display: flex;
+    margin-top: 50px;
+    gap:200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+header{
+    display: flex;
+    gap:600px;
+
+}
+.big-container{
+    margin-left:150px;
+    margin-right: 200px;
+}
+.sec1{
+    display: flex;
+    margin-top: 90px;
+    gap:300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#my-image{
+    margin-top: 50px;
+    border: solid rgb(126, 43, 126) 4px; 
+    border-style: none;
+    border-radius: 50%;
+}
+.link:hover{
+    color:rgb(115, 115, 224)
+}
+button{
+    font-size: 1.7rem;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(to left,rgb(136, 54, 136),rgb(204, 146, 204));
+    color: white;
+    
+}
+.sec2{
+    margin-top: 200px;
+}
+.head{
+    color:rgb(31, 87, 105); 
+    font-weight: 800;
+    font-size: 45px;
+}
+.para{
+    margin-top: -30px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+#photo{
+    border-radius: 5px;
+}
+.images{
+    margin-right: 30px;
+}
+.sec3{
+    display: flex;
+    gap: 300px;
+    margin-top: 150px;
+}
+.mini-para{
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+.sec3 div ul li{
+    display: inline-block;
+    padding-left: 50px;
+    color:rgb(31, 87, 105); 
+}
+.sec4{
+    margin-top: 150px;
+    display: flex;
+    gap:100px;
+}
+#left-side{
+    margin-top: 60px;
+}
+#right-side{
+    display: grid;
+    flex-basis: 50%;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+}
